@@ -1,0 +1,19 @@
+public class Solution {
+	
+    public static void main(String[] args) {
+        int i = 4;
+        double d = 4.0;
+        String s = "HackerRank ";
+		
+        Scanner scan = new Scanner(System.in);
+         int k=scan.nextInt();
+         double l=scan.nextDouble();
+         scan.nextLine();
+         String m=scan.nextLine();
+         int sum=i+k;
+         double s1=d+l;
+         String s2=s+m;
+                 System.out.println(sum);
+        System.out.println(s1);
+        System.out.println(s2);
+        scan.close();
